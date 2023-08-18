@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Marcos"
+  },
+  {
+    "name": "Claudio"
+  },
+  {
+    "name": "Fulano"
+  },
+  {
+    "name": "Beltrano"
+  }
+]

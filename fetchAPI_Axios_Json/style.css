@@ -1,0 +1,32 @@
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 85, 48);
+}
+
+.container {
+    max-width: 650px;
+    margin: 50px auto;
+    background-color: whitesmoke;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+}
+
+.tableContainer {
+    margin-top: 20px;
+}
+
+table {
+    margin: 0;
+    width: 100%;
+}
+
+
