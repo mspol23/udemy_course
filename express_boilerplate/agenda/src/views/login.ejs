@@ -1,0 +1,23 @@
+<%- include('includes/head') %>
+
+<div class="container text-center col-5">
+  <form class="form-signin" method="post">
+    <h1 class="h3 mt-5 mb-3 font-weight-normal">Sign in</h1>
+    <input type="hidden" name="_csrf" value=<%- csrfToken %>>
+    <input type="email" name="email" class="form-control col-12 mb-2 p-2 rounded" placeholder="Email address" required>
+    <input type="password" name="password" class="form-control col-12 p-2 rounded" placeholder="Password" required>
+    <div class="checkbox mb-3">
+    <label class="mt-2">
+        <input type="checkbox" value="remember-me"> Remember me
+    </label>
+    </div>
+    <button class="btn col-12 btn-md btn-primary" type="submit">Send</button>
+  </form>
+  <div class="mt-2">
+    <p>
+      <a href="/signup" class="link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover">Create a account here!</a>
+    </p>
+  </div>
+</div>
+
+<%- include('includes/footer') %>
